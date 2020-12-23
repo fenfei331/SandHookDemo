@@ -39,6 +39,8 @@ android {
 }
 
 dependencies {
+    // 载入 sandHook
+    implementation 'com.swift.sandhook:hooklib:4.2.1'
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
